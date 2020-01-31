@@ -23,7 +23,7 @@ if(isset($_POST['Send_Email']))
     $mail->IsHTML(true);
     $mail->Username = "yourmail@gmail.com";
     $mail->Password = "Your password";
-    $mail->SetFrom("geerthi65@gmail.com");
+    $mail->SetFrom("yourmail@gmail.com");
     $mail->Subject = $mailSub;
     $mail->Body = $mailMsg;
     $mail->AddAddress($mailto);
