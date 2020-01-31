@@ -21,8 +21,8 @@ if(isset($_POST['Send_Email']))
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
-    $mail->Username = "geerthi65@gmail.com";
-    $mail->Password = "keerthana65";
+    $mail->Username = "yourmail@gmail.com";
+    $mail->Password = "Your password";
     $mail->SetFrom("geerthi65@gmail.com");
     $mail->Subject = $mailSub;
     $mail->Body = $mailMsg;
